@@ -1,0 +1,89 @@
+.background {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to right, blue, purple);
+  position: fixed;
+  opacity: 0.5;
+}
+
+.background_image {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  opacity: 0.6;
+  top: 0;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  height: 5vh;
+  background-color: darkblue;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0 50px;
+  box-sizing: border-box;
+  gap: 2rem;
+}
+
+.nav_logo {
+  color: beige;
+  /* margin-right: 2rem; */
+  position: relative;
+  right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  flex-grow: 1;
+}
+
+.nav_logo_text {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.nav_item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 1rem;
+}
+
+.nav_text {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.top_bar {
+  position: fixed;
+  top: 5vh;
+  width: 100vw;
+  height: 8vh;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+  gap: 5rem;
+  opacity: 0.7;
+  box-shadow: inset 0px 0px 10px 1px rgba(0, 0, 0, 0.75);
+}
+
+.bar_link {
+  text-decoration: none;
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  transition: all 0.1s ease-in-out;
+}
+
+.bar_link:hover {
+  color: darkblue;
+  transform: scale(1.1);
+}
